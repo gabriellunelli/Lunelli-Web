@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lunelli Websites | Sites Premium</title>
+
+  <meta name="description" content="Criação de sites premium, focados em alta conversão. Design moderno, com alta responsividade."/>
+
+  <link rel="icon" type="image/x-icon" href="images/logo.ico">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Lunelli Websites</h1>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#precos">Preços</a>
+    <div class="toggle" onclick="toggleTheme(this)">☾</div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Abrir menu">☰</button>
+  </nav>
+</header>
+
+<div id="mobile-menu" class="mobile-menu">
+  <button class="close-menu" onclick="toggleMenu()">✕</button>
+  <a href="#sobre" onclick="toggleMenu()">Sobre</a>
+  <a href="#servicos" onclick="toggleMenu()">Serviços</a>
+  <a href="#projetos" onclick="toggleMenu()">Projetos</a>
+  <a href="#precos" onclick="toggleMenu()">Preços</a>
+</div>
+
+<section class="hero precos-bg">
+  <h2>Sites que vendem enquanto você dorme</h2>
+  <p>Design premium + estratégia + alta conversão</p>
+  <br>
+  <a href="https://wa.me/5547991429563?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20serviço."
+  class="btn"
+  target="_blank"
+  style="margin-top: 20px;
+      font-weight: bold;">QUERO AGORA!</a>
+</section>
+
+<section id="sobre">
+  <h2>Sobre</h2>
+  <p>Na Lunelli Websites, criamos sites que não são apenas bonitos, mas também projetados para vender. Combinamos design premium, estratégia de marketing e otimização para garantir que seu site converta visitantes em clientes, mesmo enquanto você dorme.</p>
+</section>
+
+<section id="servicos">
+  <h2>Serviços</h2>
+  <div class="cards">
+    <div class="card">Landing Pages de Alta Conversão</div>
+    <div class="card">Sites Profissionais</div>
+    <div class="card">Otimização SEO</div>
+  </div>
+</section>
+
+<section id="projetos">
+  <h2>Projetos</h2>
+  <div class="projects">
+    <div>
+      <h3>Site para Manicure</h3>
+      <p>Foco total em agendamento e conversão.</p>
+      <p>Com localização, contato, redes sociais, sobre a manicure e também agendamento com texto personalizado redirecionado ao WhatsApp.</p>
+      <br>
+      <a href="https://emynails.netlify.app" class="btn preview-btn"
+      target="_blank">Ver projeto</a>
+    </div>
+
+    <div class="carousel">
+      <button class="arrow left" onclick="prevImage()">◀</button>
+      <img id="carousel-img" src="images/inicio.png" alt="Preview do projeto" />
+      <button class="arrow right" onclick="nextImage()">▶</button>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Depoimentos</h2>
+  <div class="testimonial">"Meu faturamento aumentou muito depois do site!"</div>
+</section>
+
+<section id="precos" class="precos-bg">
+
+  <h2>Preços</h2>
+  <div class="cards">
+    <div class="card"><h3>Básico - R$200</h3>
+      <br>
+      <p>Ideal para quem quer uma presença online simples e eficaz.</p>
+      <a href="https://wa.me/5547991429563?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20pacote%20Básico." 
+      class="btn" 
+      target="_blank"
+      style="margin-top: 20px;
+      font-weight: bold;">Peça já!</a>
+    </div>
+    <div class="card destaque-bg">
+      Pro - R$500
+      <span class="badge">Mais Popular</span>
+      <p>Perfeito para negócios que buscam crescimento sustentável.</p>
+      <a href="https://wa.me/5547991429563?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20pacote%20Pro." 
+      class="btn"
+      target="_blank" 
+      style="margin-top: 20px;
+      font-weight: bold;">Peça já!</a>
+    </div>
+    <div class="card"><h3>Premium - R$1000</h3>
+      <br>
+      <p>Para quem quer um site completo, com design exclusivo e funcionalidades avançadas.</p>
+      <a href="https://wa.me/5547991429563?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20pacote%20Premium." 
+      class="btn"
+      target="_blank" 
+      style="margin-top: 20px;
+      font-weight: bold;">Peça já!</a>
+    </div>
+  </div>
+  <h2>Adicionais</h2>
+  <div class="cards">
+    <div class="card"><h3>Domínio ".com.br" R$15/mês</h3>
+      <br>
+      <p>Deixe o seu site com um domínio profissional.</p>
+    </div>
+    <div class="card destaque-bg">COMBO
+      <br>
+      Manutenção Mensal + Domínio ".com.br" - R$100/mês
+      <span class="badge">Mais Popular</span>
+      <br>
+      <p>Atualizações, backups e suporte para manter seu site sempre funcionando, com um domínio mais profissional.</p>
+    </div>
+    <div class="card">
+      <h3>Otimização SEO - R$50</h3>
+      <br>
+      <p>Faça seu site aparecer nos resultados do Google.</p>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Lunelli Studio</footer>
+
+<a class="whatsapp" href="https://wa.me/5547991429563" target="_blank"><img src="images/iconewhatsapp.png" alt="whatsapp logo"></a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
