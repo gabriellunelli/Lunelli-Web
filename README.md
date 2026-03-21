@@ -3,6 +3,18 @@ Site moderno de landing page para venda de sites, com design premium, focado em 
 
 ---
 
+## Acesse o site
+
+https://lunelli-web.vercel.app
+
+---
+
+## Preview
+
+![Preview do site](preview-lunelli-web.gif)
+
+---
+
 ## Sobre o projeto
 
 Este projeto foi criado com o objetivo de atrair clientes e apresentar serviços de criação de sites de forma profissional.
@@ -27,10 +39,6 @@ O design segue um estilo clean e moderno, inspirado em interfaces minimalistas, 
 * HTML5
 * CSS3
 * JavaScript
-
----
-
-## Preview
 
 ---
 
